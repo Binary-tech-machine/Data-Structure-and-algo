@@ -1,5 +1,5 @@
 #include<stdio.h>
-int Ifact(int n)
+int fact(int n)
 {
  int f=1,i;
  for(i=1;i<=n;i++)
@@ -9,7 +9,7 @@ int Ifact(int n)
 }
 int main()
 {
- int r=Ifact(5);
+ int r=fact(5);
  printf("%d ",r);
  return 0;
 } 
