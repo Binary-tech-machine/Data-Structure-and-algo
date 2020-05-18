@@ -9,7 +9,11 @@ int fact(int n)
 }
 int main()
 {
- int r=fact(5);
- printf("%d ",r);
- return 0;
+  int n;
+  printf("enter the value of n :");
+  scanf("%d",&n);
+  int r=fact(n);
+  printf("%d ",r);
+  return 0;
+  
 } 
